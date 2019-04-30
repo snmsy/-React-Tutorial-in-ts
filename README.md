@@ -8,5 +8,5 @@ $ docker-compose run --rm node sh -c "npx create-react-app tutorial --typescript
 ```
 ## run
 ```
-$ docker-compose run --rm --service-ports node npm start
+$ docker-compose run --rm --service-ports -w node npm start
 ```

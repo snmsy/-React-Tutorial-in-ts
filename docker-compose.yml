@@ -5,6 +5,7 @@ services:
     environment:
       - NODE_ENV=production
     volumes:
-      - $PWD/tutorial:/usr/src/app
+      - $PWD:/usr/src/app
     ports:
       - "3000:3000"
+    working_dir: /tutorial
